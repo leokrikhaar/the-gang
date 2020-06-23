@@ -1,16 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
 body, html{
-
 	font-family: 'Open Sans', sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
-
-h1 {
+h1{
 	font-weight: 800;
 	font-size: 50px;
 }
@@ -20,12 +16,12 @@ h2{
 	font-size: 50px;
 }
 
-h3 {
+h3{
 	font-weight: bold;
 	font-size: 30px;
 }
 
-h4 {
+h4{
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -36,23 +32,19 @@ p{
 	margin: 30px 0;
 }
 
-
-.wrapper {
+.wrapper{
 	width: 960px;
 	margin: 0 auto;
-
 }
 
 .hero-banner{
 	background-color: #007FFF;
 	min-height: 100vh;
-	padding: 50 20px;
+	padding: 50px 20px;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
-
 }
-
 
 .hero-banner .wrapper{
 	height: 464px;
@@ -63,7 +55,6 @@ p{
 	margin-left: -480px;
 }
 
-
 .hero-banner h1{
 	color: white;
 	margin: 14px 0 20px;
@@ -71,15 +62,13 @@ p{
 
 .hero-banner h3{
 	color: white;
-	margin: 0 0 35PX;
-
+	margin: 0 0 35px;
 }
 
 .hero-banner h4,
 .hero-banner h4 a{
 	color: white;
 	margin: 0;
-
 }
 
 .character1{
@@ -89,28 +78,23 @@ p{
 	height: 344px;
 	position: absolute; top: 10%; right: 10%;
 	transform: rotate(15deg);
-
 }
 
 .character2{
 	background: url(img/character2.png) no-repeat 0 0;
 	background-size: 100%;
-	width: 309px; 
+	width: 309px;
 	height: 371px;
 	position: absolute; top: 213px; right: 277px;
-	
 }
 
 .character3{
 	background: url(img/character3.png) no-repeat 0 0;
 	background-size: 100%;
-	width: 297px; 
+	width: 297px;
 	height: 286px;
 	position: absolute; bottom: 74px; right: 109px;
-	
 }
-
-
 
 a.cta,
 button.cta{
@@ -140,10 +124,10 @@ button.cta.alt{
 	box-shadow: 0 0 0 10px rgba(0,0,0,.15);
 }
 
-nav {
+nav{
 	height: 100px;
 	background-color: white;
-	box-shadow: 0 5px 8px rgba(0,0,0,.2); 
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
 	position: sticky;
 	top: 0;
 	z-index: 1;
@@ -153,13 +137,13 @@ nav .logo{
 	display: block;
 	width: 300px;
 	height: 40px;
-	position: absolute; top: 50%; left: 30px;
+	position: absolute; top: 50%; left: 0;
 	margin-top: -20px;
 	margin-left: 30px;
-	background: url(img/logo.png) no-repeat 0 0; 
+	background: url(img/logo.png) no-repeat 0 0;
 	background-size: 100%;
 	overflow: hidden;
-	text-indent: -999px
+	text-indent: -999px;
 }
 
 nav ul{
@@ -167,15 +151,14 @@ nav ul{
 	margin: 0 20px 0 0;
 }
 
-nav ul li {
+nav ul li{
 	margin: 0;
 	padding: 0;
 	display: block;
 	float: right;
 }
 
-nav ul li a {
-
+nav ul li a{
 	display: block;
 	height: 100%;
 	box-sizing: border-box;
@@ -188,24 +171,23 @@ nav ul li a {
 	line-height: 30px;
 }
 
-.more-info {
+.more-info{
 	text-align: center;
-
 }
 
-.more-info p {
+.more-info p{
 	margin: 18px 0 35px;
 }
 
-.more-info h2 {
+.more-info h2{
 	margin: 50px 0 0;
 }
 
-.highlight {
+.highlight{
 	background-color: #FFADF9;
 	color: #FF3300;
-	padding: 5PX 10PX;
-	line-height: 30PX;
+	padding: 5px 10px;
+	line-height: 50px;
 	display: inline;
 	font-weight: 800;
 }
@@ -217,12 +199,12 @@ nav ul li a {
 	margin: 70px auto;
 }
 
-.story h3 {
+.story h3{
 	font-size: 40px;
 	font-weight: 800;
 }
 
-.nb-list {
+.nb-list{
 	width: 470px;
 	padding: 20px 20px 0 20px;
 	box-sizing: border-box;
@@ -230,7 +212,6 @@ nav ul li a {
 	float: left;
 	margin: 0 20px 20px 0;
 	position: relative;
-	
 }
 
 .nb-list li{
@@ -244,23 +225,23 @@ nav ul li a {
 	padding: 6px 20px;
 	box-sizing: border-box;
 }
-
 .nb-list li.red{background-color: #FF3300;}
 .nb-list li.blue{background-color: #007FFF;}
 .nb-list li.gray{background-color: rgba(0,0,0, .1);}
 .nb-list li.yellow{
-	background-color: #FFD400; 
-	color: 111111;}
+	background-color: #FFD400;
+	color: #111111;
+}
 .nb-list li.pink{background-color: #FFADF9;}
 .nb-list li.salmon{background-color: #FA8072;}
 
 .nb-list li.dragging{
 	position: absolute;
-	top: 70PX;
-	left: 70PX;
-	right: -30PX;
+	top: 70px;
+	left: 70px;
+	right: -30px;
 	transform: rotate(6deg);
-	box-shadow: 0 2px 14px rgba(0,0,0, .3);
+	box-shadow: 0 2px 14px rgba(0,0,0,.3);
 }
 
 .nb-list li.dragging:after{
@@ -292,33 +273,102 @@ footer a{
 	color: rgba(0,0,0, .4);
 }
 
-
-.popup {
+.popup{
 	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
 }
 
-/*
+.popup.show{
+	display: block;
+}
 
-<div class="sep"></div>
-	<div class="story" id="story">
-		<ul class="nb-list">
-				<li class="blue">Rock n Roll</li>
-				<li class="gray">&nbsp;</li>
-				<li class="dragging yellow">Laughter</li>
-				<li class="red">Square Offs</li>
-				<li class="pink">Circuitous Routes</li>
-				<li class="salmon">Trigonometry</li>
-				<li class="blue">Rad Hats</li>
-				<li class="yellow">Being Silly</li>
-		</ul>
-		<h3>Left: Things We Find Important<br/>
-		Below: Our Story</h3>
-		<p> Once upon a time there was a group of shapes. They were mostly black and rectangular. They were mean and very serious.</p>
-		<p>And so they kicked the 3 shapes that didn’t conform out of their gang, which was called the Right Angled Gang.</p>
-		<p>And so these 3 shapes were very sad, but found great joy and comfort being around each other. They soon started having a lot of fun, started rocking and rolling, started being silly, and became the most well-known shape gang in the universe.</p>
-		<p>They even started making fun of squares and rectangles in what they like to call ‘Square Offs’!</p>
+.popup .blanket{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
 
-	</div>
-	<div class="sep"></div>
+.popup .content{
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: -480px;
+}
 
-/*
+.popup h2{
+	margin: 10px 0 20px;
+}
+
+.popup .cta{
+	margin-top: 40px;
+}
+
+.popup .close{
+	width: 80px;
+	height: 80px;
+	background: #FF3300 url(img/close.png) no-repeat center center;
+	background-size: 50%;
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.popup .row{
+	
+}
+
+.popup .row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.popup .item{
+	float: left;
+	width: 415px;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.popup .item:first-child{
+	margin-left: 0;
+}
+
+.popup .item label{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.popup .item input[type='text']{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	border: 4px solid #111111;
+	height: 70px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+}
